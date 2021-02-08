@@ -53,6 +53,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+LOGIN_URL = 'rango:login'
+
 ROOT_URLCONF = 'tango_with_django_project.urls'
 
 TEMPLATES = [
